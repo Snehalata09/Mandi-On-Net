@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Add product | CodingLab </title>
+    <link rel="stylesheet" href="productstyle.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Add a new Product:</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+
+          <!--Label & Textbox-->
+          <div class="input-box">
+            <span class="details">Product Name</span>
+            <input type="text" placeholder="Enter your product name" required>
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Price(per 1kgs)</span>
+            <input type="text" placeholder="Enter your product Price" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Description</span>
+            <input type="text" placeholder="Enter your product Description" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Available Quantity</span>
+            <input type="text" placeholder="Enter Available Stock" required>
+          </div>
+        <!--Label & Textbox-->
+
+         <div class="Categories-details">
+          <input type="radio" name="category" id="cat-1">
+          <input type="radio" name="category" id="cat-2">
+          <input type="radio" name="category" id="cat-4">
+          <span class="category-title">Categories</span>
+          <div class="category">
+            <label for="cat-1">
+            <span class="cat one"></span>
+            <span class="categories-details">Fruits</span>
+          </label>
+          <label for="cat-2">
+            <span class="cat two"></span>
+            <span class="categories-details">Vegetables</span>
+          </label>
+          <label for="cat-4">
+            <span class="cat four"></span>
+            <span class="categories-details">Grains</span>
+          </label>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Main_image</span>
+          <input id="filebutton" name="filebutton" class="input-file" type="file">
+        </div>
+
+        </div>
+
+          <div class="input-box">
+          <span class="details">Auxilary_image</span>
+          <input id="filebutton" name="filebutton" class="input-file" type="file">
+          </div>
+
+        <div class="button">
+          <input type="submit" value="Add-Product">
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
